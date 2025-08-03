@@ -152,7 +152,7 @@ export const metadata: Metadata = {
   description:
     "Design your own viral Brat-style image in seconds. Brat Generator is a free online tool inspired by Charli XCX’s bold album aesthetic. Customize colors, text, and layout – no watermark, no login required.",
   alternates: {
-    canonical: "/brat-album-cover-generator",
+    canonical: "https://bratgenerator.blog/brat-album-cover-generator",
   },
   openGraph: {
     type: "website",

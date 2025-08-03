@@ -148,7 +148,7 @@ export const metadata: Metadata = {
   description:
     "Design custom Brat-style graphics with your own text in neon green and minimalist style—based on Charli XCX’s iconic album. Free, no signup, no watermark. Meme-ready in seconds.",
   alternates: {
-    canonical: "/charli-xcx-brat-generator",
+    canonical: "https://bratgenerator.blog/charli-xcx-brat-generator",
   },
   openGraph: {
     type: "website",

@@ -151,7 +151,7 @@ export const metadata: Metadata = {
   description:
     "Create stunning black-themed Brat covers with Brat Generator Black. Inspired by Charli XCX’s viral album, this free online tool lets you customize text in a moody, minimalist aesthetic. No watermark. No sign-up. Just brat.",
   alternates: {
-    canonical: "/brat-generator-black",
+    canonical: "https://bratgenerator.blog/brat-generator-black",
   },
   openGraph: {
     type: "website",

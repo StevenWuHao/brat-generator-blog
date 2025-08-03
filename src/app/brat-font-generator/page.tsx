@@ -150,7 +150,7 @@ export const metadata: Metadata = {
   description:
     "Design bold, bratty text just like Charli XCX’s Brat album using the Brat Font Generator. Customize fonts, styles, and themes for memes, covers, and lyrics. Free & watermark-free.",
   alternates: {
-    canonical: "/brat-font-generator",
+    canonical: "https://bratgenerator.blog/brat-font-generator",
   },
   openGraph: {
     type: "website",

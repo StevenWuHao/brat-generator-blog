@@ -155,7 +155,7 @@ export const metadata: Metadata = {
   description:
     "Free Brat Lyrics Generator inspired by Charli XCX. Type lyrics or quotes, pick a theme, and download bold, minimalist lyric images in seconds.",
   alternates: {
-    canonical: "/brat-lyrics-generator",
+    canonical: "https://bratgenerator.blog/brat-lyrics-generator",
   },
   openGraph: {
     type: "website",

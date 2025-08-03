@@ -149,7 +149,7 @@ export const metadata: Metadata = {
   description:
     "Join the Brat Summer trend with our Brat Summer Meme Generator. Inspired by Charli XCX’s viral lime‑green Brat aesthetic, this free tool creates instant meme‑style graphics. No watermark, no signup—generate your brat meme in seconds.",
   alternates: {
-    canonical: "/brat-summer-meme-generator",
+    canonical: "https://bratgenerator.blog/brat-summer-meme-generator",
   },
   openGraph: {
     type: "website",

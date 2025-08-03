@@ -148,7 +148,7 @@ export const metadata: Metadata = {
   description:
     "Design your own minimalist Brat album cover with Brat Generator White. Inspired by Charli XCX’s viral aesthetic. Free, no watermark, mobile-friendly & perfect for lyric memes.",
   alternates: {
-    canonical: "/brat-generator-white",
+    canonical: "https://bratgenerator.blog/brat-generator-white",
   },
   openGraph: {
     type: "website",

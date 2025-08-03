@@ -145,7 +145,7 @@ export const metadata: Metadata = {
   description:
     "Create a bold pink Brat album cover in seconds using Brat Generator Pink. Inspired by Charli XCX’s viral aesthetic. Free, no watermark, fully customizable, and share-ready.",
   alternates: {
-    canonical: "/brat-generator-pink",
+    canonical: "https://bratgenerator.blog/brat-generator-pink",
   },
   openGraph: {
     type: "website",

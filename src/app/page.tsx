@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   description:
     "Instantly create your own Brat-style album cover inspired by Charli XCX. Type your text, pick a color, and download a viral graphic in seconds.",
   alternates: {
-    canonical: "/",
+    canonical: "https://bratgenerator.blog/",
   },
 };
 

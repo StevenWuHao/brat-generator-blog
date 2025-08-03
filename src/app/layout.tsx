@@ -19,9 +19,6 @@ export const metadata: Metadata = {
   title: "Brat Generator – Go Viral with Your Own Brat Album Cover in Seconds",
   description:
     "Want your own Brat-style cover that’s bold, bratty, and totally viral? Brat Generator makes it easy. Just type your text, pick a theme, and get your custom graphic in seconds—perfect for memes, posts, or showing off your brat energy.",
-  alternates: {
-    canonical: "/",
-  },
   openGraph: {
     type: "website",
     url: "https://bratgenerator.blog/",

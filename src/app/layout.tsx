@@ -4,6 +4,7 @@ import "./globals.css";
 import Header from "@/components/common/header";
 import Footer01Page from "@/components/footer-02/footer-02";
 import Script from "next/script";
+import PlausibleProvider from "next-plausible";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -64,6 +65,13 @@ export default function RootLayout({
             gtag('config', 'G-1RS0MVJ7XT');
           `}
       </Script>
+      <PlausibleProvider
+        domain="bratgenerator.blog"
+        trackOutboundLinks
+        trackFileDownloads
+        taggedEvents
+        pageviewProps
+      />
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
         suppressHydrationWarning

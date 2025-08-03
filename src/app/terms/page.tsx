@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Page() {
   return (
     <main className="container max-w-3xl py-12 px-4 mx-auto">
@@ -5,11 +7,12 @@ export default function Page() {
 
       <p className="mb-4">
         Welcome to Brat Generator, accessible from{" "}
-        <a href="/" className="text-blue-600 underline">
+        <Link href="/" className="text-blue-600 underline">
           bratgenerator.blog
-        </a>
-        . Please read these Terms of Service ("Terms", "Terms of Service")
-        carefully before using the Brat Generator web application ("Service").
+        </Link>
+        . Please read these Terms of Service (&quot;Terms&quot;, &quot;Terms of
+        Service&quot;) carefully before using the Brat Generator web application
+        (&quot;Service&quot;).
       </p>
 
       <h2 className="text-2xl font-semibold mt-8 mb-2">
@@ -75,10 +78,11 @@ export default function Page() {
 
       <h2 className="text-2xl font-semibold mt-8 mb-2">8. Disclaimer</h2>
       <p className="mb-4">
-        The Service is provided on an "as is" and "as available" basis. Brat
-        Generator makes no representations or warranties of any kind, whether
-        express or implied, about the completeness, accuracy, reliability,
-        suitability, or availability of the Service.
+        The Service is provided on an &quot;as is&quot; and &quot;as
+        available&quot; basis. Brat Generator makes no representations or
+        warranties of any kind, whether express or implied, about the
+        completeness, accuracy, reliability, suitability, or availability of the
+        Service.
       </p>
 
       <h2 className="text-2xl font-semibold mt-8 mb-2">

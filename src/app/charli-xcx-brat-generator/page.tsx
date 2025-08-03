@@ -27,7 +27,7 @@ import {
 
 import Link from "next/link";
 
-export const faq = [
+const faq = [
   {
     icon: Image,
     question: "What is Brat Generator?",

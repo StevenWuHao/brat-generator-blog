@@ -26,7 +26,7 @@ import {
 } from "lucide-react";
 import Link from "next/link";
 
-export const faq = [
+const faq = [
   {
     icon: Palette,
     question: "What is Brat Generator Black?",

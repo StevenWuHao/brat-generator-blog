@@ -5,9 +5,9 @@ export default function Page() {
         <h1 className="text-4xl font-bold mb-6">Contact Us</h1>
 
         <p className="mb-4">
-          We'd love to hear from you! Whether you have a question about our
+          We&apos;d love to hear from you! Whether you have a question about our
           service, feedback on how we can improve, or a business inquiry, please
-          don't hesitate to get in touch.
+          don&apos;t hesitate to get in touch.
         </p>
 
         <h2 className="text-2xl font-semibold mt-8 mb-2">Our Email</h2>

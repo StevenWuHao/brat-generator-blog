@@ -233,7 +233,7 @@ export default function HomePage() {
           for lyrical expressions.
         </p>
         <p>
-          Whether you're designing a TikTok meme, custom profile text, or a
+          Whether you&apos;re designing a TikTok meme, custom profile text, or a
           bold-branded statement, Brat Font Generator gives you the freedom to
           create bratty visuals in seconds — no watermark, no login, just pure
           brat energy.

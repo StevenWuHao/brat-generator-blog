@@ -7,6 +7,7 @@ import {
 } from "@/components/ui/sheet";
 import { Menu } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 
 interface NavItem {
   title: string;
@@ -31,7 +32,7 @@ export default function Header() {
   return (
     <header>
       <nav className="mx-auto flex h-20 w-full items-center gap-6 px-6 lg:max-w-7xl">
-        <a
+        <Link
           href="/"
           title="Brat Generator"
           className="inline-flex flex-1 items-center gap-2"
@@ -46,13 +47,13 @@ export default function Header() {
           <h2 className="text-2xl/none font-bold tracking-tight">
             Brat Generator
           </h2>
-        </a>
+        </Link>
         <div className="hidden gap-2 lg:inline-flex">
           {navItems.map((item: NavItem) => (
             <Button key={item.title} asChild variant={"ghost"}>
-              <a title={item.describe} href={item.href}>
+              <Link title={item.describe} href={item.href}>
                 {item.title}
-              </a>
+              </Link>
             </Button>
           ))}
         </div>
@@ -75,7 +76,7 @@ export default function Header() {
             className="flex w-[90%] max-w-sm flex-col px-6 py-6"
           >
             <SheetTitle>
-              <a
+              <Link
                 href="/"
                 title="Brat Generator"
                 className="inline-flex items-center gap-2"
@@ -90,7 +91,7 @@ export default function Header() {
                 <span className="text-2xl font-bold tracking-tight">
                   NewsDigestAI
                 </span>
-              </a>
+              </Link>
             </SheetTitle>
             <nav className="-mx-4 my-6 flex flex-1 flex-col gap-2">
               {navItems.map((item: NavItem) => (
@@ -100,9 +101,9 @@ export default function Header() {
                   className="justify-start text-base"
                   variant={"ghost"}
                 >
-                  <a title={item.describe} href={item.href}>
+                  <Link title={item.describe} href={item.href}>
                     {item.title}
-                  </a>
+                  </Link>
                 </Button>
               ))}
             </nav>

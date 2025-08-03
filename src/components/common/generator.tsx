@@ -142,7 +142,7 @@ export default function BratGenerator({
         const baseLine = lineWords.join(" ");
         const baseWidth = ctx.measureText(baseLine).width;
         const spacesToAdd = lineWords.length - 1;
-        let extraSpace = containerWidth - baseWidth;
+        const extraSpace = containerWidth - baseWidth;
 
         let justifiedLine = "";
         if (spacesToAdd > 0) {

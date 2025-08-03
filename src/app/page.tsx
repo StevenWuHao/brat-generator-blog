@@ -181,10 +181,11 @@ export default function HomePage() {
         <p className="text-muted-foreground text-lg mb-4">
           The Brat Generator is an online tool that allows you to create custom
           images mimicking the bold, minimalist, and instantly recognizable
-          aesthetic of Charli XCX's <strong>Brat</strong> album. Whether you're
-          a fan of the "<em>offensive green</em>" meme or simply want to design
-          your own Brat-style album cover, this generator gives you the tools to
-          make viral, bratty content with just a few clicks.
+          aesthetic of Charli XCX&apos;s <strong>Brat</strong> album. Whether
+          you&apos;re a fan of the &quot;<em>offensive green</em>&quot; meme or
+          simply want to design your own Brat-style album cover, this generator
+          gives you the tools to make viral, bratty content with just a few
+          clicks.
         </p>
         <p className="text-muted-foreground text-lg">
           You can use the Brat Generator to craft album memes, reaction images,
@@ -207,10 +208,10 @@ export default function HomePage() {
           parodies and recreations online.
         </p>
         <p className="text-muted-foreground text-lg">
-          Soon after, memes like "Kamala Harris Brat Meme Generator", “Brat Text
-          Generator”, and “Brat Summer Meme Generator” started trending. People
-          wanted a Brat-style generator that mimicked the aesthetic of the album
-          cover.
+          Soon after, memes like &quot;Kamala Harris Brat Meme Generator&quot;,
+          &quot;Brat Text Generator&quot;, and “Brat Summer Meme Generator”
+          started trending. People wanted a Brat-style generator that mimicked
+          the aesthetic of the album cover.
         </p>
       </section>
 
@@ -220,7 +221,7 @@ export default function HomePage() {
         </h2>
         <p className="text-muted-foreground text-lg mb-6">
           Using the Brat Generator is as easy as writing your name—or your next
-          viral hot take. Here's how:
+          viral hot take. Here&apos;s how:
         </p>
         <div className="space-y-6 text-base">
           <div>

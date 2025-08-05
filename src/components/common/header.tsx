@@ -89,7 +89,7 @@ export default function Header() {
                   height={32}
                 />
                 <span className="text-2xl font-bold tracking-tight">
-                  NewsDigestAI
+                  BratGenerator
                 </span>
               </Link>
             </SheetTitle>

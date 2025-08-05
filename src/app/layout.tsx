@@ -65,6 +65,10 @@ export default function RootLayout({
             gtag('config', 'G-1RS0MVJ7XT');
           `}
       </Script>
+      <meta
+        name="google-adsense-account"
+        content="ca-pub-2722055642744540"
+      ></meta>
       <PlausibleProvider
         domain="bratgenerator.blog"
         trackOutboundLinks

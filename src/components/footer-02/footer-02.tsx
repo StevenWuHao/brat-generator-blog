@@ -9,42 +9,62 @@ const footerSections = [
       {
         title: "Brat Generator Pink",
         href: "/brat-generator-pink",
+        image: "",
+        target: "",
       },
       {
         title: "Brat Generator Green",
         href: "/",
+        image: "",
+        target: "",
       },
       {
         title: "Brat Generator Black",
         href: "/brat-generator-black",
+        image: "",
+        target: "",
       },
       {
         title: "Brat Generator White",
         href: "/brat-generator-white",
+        image: "",
+        target: "",
       },
       {
         title: "brat lyrics generator",
         href: "/brat-lyrics-generator",
+        image: "",
+        target: "",
       },
       {
         title: "brat text generator",
         href: "/",
+        image: "",
+        target: "",
       },
       {
         title: "brat font generator",
         href: "/brat-font-generator",
+        image: "",
+        target: "",
       },
       {
         title: "brat album cover generator",
         href: "/brat-album-cover-generator",
+        image: "",
+        target: "",
       },
       {
         title: "charli xcx brat generator​",
         href: "/charli-xcx-brat-generator",
+        image: "",
+        target: "",
       },
       {
         title: "brat summer meme generator",
         href: "/brat-summer-meme-generator",
+        image: "",
+        target: "",
       },
     ],
   },
@@ -72,14 +92,43 @@ const footerSections = [
       {
         title: "Terms",
         href: "/terms",
+        image: "",
+        target: "",
       },
       {
         title: "Privacy",
         href: "/privacy",
+        image: "",
+        target: "",
       },
       {
         title: "Contact Us",
         href: "contact-us",
+        image: "",
+        target: "",
+      },
+    ],
+  },
+  {
+    title: "Friends",
+    links: [
+      {
+        title: `Dang.ai`,
+        href: "https://dang.ai/",
+        image: `https://cdn.prod.website-files.com/63d8afd87da01fb58ea3fbcb/6487e2868c6c8f93b4828827_dang-badge.png`,
+        target: "_blank",
+      },
+      {
+        title: `Featured on Startup Fame`,
+        href: "https://startupfa.me/s/brat-generator-10?utm_source=bratgenerator.blog",
+        image: `https://startupfa.me/badges/featured-badge.webp`,
+        target: "_blank",
+      },
+      {
+        title: `Featured on MagicBox.tools`,
+        href: "https://magicbox.tools",
+        image: `https://magicbox.tools/badge.svg`,
+        target: "_blank",
       },
     ],
   },
@@ -91,7 +140,7 @@ const Footer01Page = () => {
       <div className="grow bg-muted" />
       <footer>
         <div className="max-w-screen-xl mx-auto">
-          <div className="py-12 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4 gap-x-8 gap-y-10 px-6 xl:px-0">
+          <div className="py-12 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-5 gap-x-8 gap-y-10 px-6 xl:px-0">
             <div className="col-span-full xl:col-span-2">
               {/* Logo */}
               <div className="flex items-center space-x-2">
@@ -115,14 +164,26 @@ const Footer01Page = () => {
               <div key={title}>
                 <h6 className="font-semibold">{title}</h6>
                 <ul className="mt-6 space-y-4">
-                  {links.map(({ title, href }) => (
+                  {links.map(({ title, href, image, target }) => (
                     <li key={title}>
                       <Link
                         href={href}
                         title={title}
+                        target={target}
                         className="text-muted-foreground hover:text-foreground"
                       >
-                        {title}
+                        {image ? (
+                          <Image
+                            src={image}
+                            alt={title}
+                            width={150}
+                            height={54}
+                            loading="lazy"
+                            style={{ width: "150px", height: "54px" }}
+                          />
+                        ) : (
+                          title
+                        )}
                       </Link>
                     </li>
                   ))}

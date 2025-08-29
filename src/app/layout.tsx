@@ -65,6 +65,11 @@ export default function RootLayout({
             gtag('config', 'G-1RS0MVJ7XT');
           `}
       </Script>
+      <script
+        async
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2722055642744540"
+        crossOrigin="anonymous"
+      ></script>
       <meta
         name="google-adsense-account"
         content="ca-pub-2722055642744540"

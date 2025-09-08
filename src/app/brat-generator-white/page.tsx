@@ -192,7 +192,12 @@ export default function HomePage() {
         </p>
       </section>
 
-      <BratGenerator defaultTheme="white" />
+      <BratGenerator
+        title="Brat Generator White"
+        description="Clean, minimal, and classic."
+        defaultTheme="white"
+        defaultText="PURE"
+      />
 
       <section className="max-w-3xl mx-auto mt-10 text-lg space-y-6">
         <h2 className="text-2xl font-bold mb-4 text-center">

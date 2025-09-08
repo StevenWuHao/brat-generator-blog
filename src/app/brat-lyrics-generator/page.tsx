@@ -196,7 +196,12 @@ export default function HomePage() {
         </p>
       </section>
 
-      <BratGenerator />
+      <BratGenerator
+        title="Brat Lyrics Generator"
+        description="Don't know what to write? Get random Charli XCX lyrics."
+        defaultTheme="green"
+        defaultText="lyrics"
+      />
 
       <section className="prose max-w-3xl mx-auto">
         <h2 className="text-2xl font-bold mb-4 text-center">

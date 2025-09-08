@@ -187,7 +187,12 @@ export default function HomePage() {
         </p>
       </section>
 
-      <BratGenerator defaultTheme="pink" />
+      <BratGenerator
+        title="Brat Generator Pink"
+        description="A vibrant, bubblegum pink aesthetic."
+        defaultTheme="pink"
+        defaultText="PINK"
+      />
 
       <section className="max-w-3xl mx-auto mt-10 text-lg space-y-6">
         <h2 className="text-2xl font-bold mb-4 text-center">

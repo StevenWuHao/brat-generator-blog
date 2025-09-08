@@ -193,7 +193,13 @@ export default function HomePage() {
         </p>
       </section>
 
-      <BratGenerator />
+      <BratGenerator
+        title="Brat Summer Meme Generator"
+        description="It's a hot brat summer. Make it iconic."
+        defaultBgColor="#FFD700" // A bright, sunny yellow
+        defaultTextColor="#FF1493" // A hot pink
+        defaultText="SUMMER"
+      />
 
       <section className="max-w-3xl mx-auto mt-10 text-lg space-y-6">
         <h2 className="text-2xl font-bold mb-4 text-center">

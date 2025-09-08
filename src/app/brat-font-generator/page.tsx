@@ -193,7 +193,13 @@ export default function HomePage() {
         </p>
       </section>
 
-      <BratGenerator />
+      <BratGenerator
+        title="Brat Font Generator"
+        description="Find the perfect font for your message."
+        defaultTheme="white"
+        defaultTextColor="#1a1a1a"
+        defaultText="FONTS"
+      />
 
       <section className="max-w-3xl mx-auto mt-10 text-lg space-y-6">
         <h2 className="text-2xl font-bold mb-4 text-center">

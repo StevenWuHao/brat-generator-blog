@@ -193,7 +193,12 @@ export default function HomePage() {
         </p>
       </section>
 
-      <BratGenerator defaultTheme="black" />
+      <BratGenerator
+        title="Brat Generator Black"
+        description="For a darker, edgier, industrial vibe."
+        defaultTheme="black"
+        defaultText="VOID"
+      />
 
       <section className="max-w-3xl mx-auto mt-10 text-lg space-y-6">
         <h2 className="text-2xl font-bold mb-4 text-center">

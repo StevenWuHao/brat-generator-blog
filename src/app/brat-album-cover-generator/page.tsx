@@ -148,7 +148,7 @@ const faq = [
 
 export const metadata: Metadata = {
   title:
-    "Brat Brat Album Cover Generator – Create Your Own Brat Album Cover Online for Free",
+    "Brat Album Cover Generator – Create Your Own Brat Album Cover Online for Free",
   description:
     "Design your own viral Brat-style image in seconds. Brat Generator is a free online tool inspired by Charli XCX’s bold album aesthetic. Customize colors, text, and layout – no watermark, no login required.",
   alternates: {
@@ -158,7 +158,7 @@ export const metadata: Metadata = {
     type: "website",
     url: "https://bratgenerator.blog/brat-album-cover-generator",
     title:
-      "Brat Brat Album Cover Generator – Create Your Own Brat Album Cover Online for Free",
+      "Brat Album Cover Generator – Create Your Own Brat Album Cover Online for Free",
     description:
       "Design your own viral Brat-style image in seconds. Brat Generator is a free online tool inspired by Charli XCX’s bold album aesthetic. Customize colors, text, and layout – no watermark, no login required.",
     images: [
@@ -173,7 +173,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "Brat Brat Album Cover Generator – Create Your Own Brat Album Cover Online for Free",
+      "Brat Album Cover Generator – Create Your Own Brat Album Cover Online for Free",
     site: "https://bratgenerator.blog/brat-album-cover-generator",
     description:
       "Design your own viral Brat-style image in seconds. Brat Generator is a free online tool inspired by Charli XCX’s bold album aesthetic. Customize colors, text, and layout – no watermark, no login required.",
@@ -186,7 +186,7 @@ export default function HomePage() {
     <main className="container mx-auto px-4 py-12">
       <section className="text-center mb-12">
         <h1 className="text-4xl md:text-5xl font-bold mb-4">
-          Brat Brat Album Cover Generator
+          Brat Album Cover Generator
         </h1>
         <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
           Design your own viral Brat-style image in seconds. Brat Generator is a
@@ -195,7 +195,11 @@ export default function HomePage() {
         </p>
       </section>
 
-      <BratGenerator />
+      <BratGenerator
+        title="Brat Album Cover Generator"
+        description="What's your album name?"
+        defaultText="Brat Album Cover Generator"
+      />
 
       <section className="max-w-3xl mx-auto mt-10 text-lg space-y-6">
         <h2 className="text-2xl font-bold mb-4 text-center">

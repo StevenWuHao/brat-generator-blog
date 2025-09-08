@@ -189,7 +189,12 @@ export default function HomePage() {
         </p>
       </section>
 
-      <BratGenerator />
+      <BratGenerator
+        title="Charli XCX Brat Generator"
+        description="The official green. Inspired by the album."
+        defaultTheme="green"
+        defaultText="brat"
+      />
 
       <section className="max-w-3xl mx-auto mt-10 text-lg space-y-6">
         <h2 className="text-2xl font-bold mb-4 text-center">

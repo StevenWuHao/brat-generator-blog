@@ -162,7 +162,7 @@ const Footer01Page = () => {
 
             {footerSections.map(({ title, links }) => (
               <div key={title}>
-                <h6 className="font-semibold">{title}</h6>
+                <h3 className="font-semibold">{title}</h3>
                 <ul className="mt-6 space-y-4">
                   {links.map(({ title, href, image, target }) => (
                     <li key={title}>

@@ -130,6 +130,12 @@ const footerSections = [
         image: `https://magicbox.tools/badge.svg`,
         target: "_blank",
       },
+      {
+        title: `Featured on Twelve Tools`,
+        href: "https://twelve.tools",
+        image: `https://twelve.tools/badge0-white.svg`,
+        target: "_blank",
+      },
     ],
   },
 ];

@@ -136,6 +136,12 @@ const footerSections = [
         image: `https://twelve.tools/badge0-white.svg`,
         target: "_blank",
       },
+      {
+        title: `Power Up Tools`,
+        href: "https://poweruptools.com",
+        image: `https://poweruptools.com/assets/images/badge.png`,
+        target: "_blank",
+      },
     ],
   },
 ];

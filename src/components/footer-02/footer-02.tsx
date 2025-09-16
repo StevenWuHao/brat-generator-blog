@@ -142,10 +142,15 @@ const footerSections = [
         image: `https://poweruptools.com/assets/images/badge.png`,
         target: "_blank",
       },
+      {
+        title: `SeekTool.ai Tools Directory`,
+        href: "https://seektool.ai/",
+        // image: `https://poweruptools.com/assets/images/badge.png`,
+        target: "_blank",
+      },
     ],
   },
 ];
-
 const Footer01Page = () => {
   return (
     <div className="flex flex-col">

@@ -22,9 +22,29 @@ const navItems: NavItem[] = [
     href: "/",
   },
   {
-    title: "Contact Us",
-    describe: "Email us at steve20200512@gmail.com",
-    href: "/contact-us",
+    title: "brat lyrics generator",
+    describe: "brat lyrics generator",
+    href: "/brat-lyrics-generator",
+  },
+  {
+    title: "brat font generator",
+    describe: "brat font generator",
+    href: "/brat-font-generator",
+  },
+  {
+    title: "brat summer meme generator",
+    describe: "brat summer meme generator",
+    href: "/brat-summer-meme-generator",
+  },
+  {
+    title: "Brat Generator Black",
+    describe: "Brat Generator Black",
+    href: "/brat-generator-black",
+  },
+  {
+    title: "Brat Generator White",
+    describe: "Brat Generator White",
+    href: "/brat-generator-white",
   },
 ];
 
@@ -57,14 +77,14 @@ export default function Header() {
             </Button>
           ))}
         </div>
-        <div className="hidden flex-1 justify-end gap-2 lg:inline-flex">
-          {/* <Button asChild variant={"outline"}>
+        {/* <div className="hidden flex-1 justify-end gap-2 lg:inline-flex"> */}
+        {/* <Button asChild variant={"outline"}>
             <a href="#">Log in</a>
           </Button>
           <Button asChild>
             <a href="#">Sign up</a>
           </Button> */}
-        </div>
+        {/* </div> */}
         <Sheet>
           <SheetTrigger asChild className="ml-auto lg:hidden">
             <Button variant="outline" size="icon" aria-label="Open Menu">
